@@ -1,0 +1,127 @@
+.hero {
+    background-color: #a6b1e1;
+}
+
+.general-back {
+    background-color: #f4eeff;
+}
+
+.dark-back {
+    background-color: #424874;
+}
+
+.deep-purple {
+    color: #424874; 
+}
+
+.light-purple {
+    color: #f4eeff;
+}
+
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.neuton-bold {
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+    background-color: #a6b1e1;
+}
+
+.demol {
+    min-width: 300px;
+    width: 40%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.traffic-lane>img, .cortex-m4>img, .verilog>img, .system-verilog>img {
+    height: 80px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 992px) { 
+    .project-container {
+        display: grid;
+        gap:20px;
+        grid-template-columns: 2fr 4fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .traffic-lane {
+        grid-row: span 3;
+    }
+
+    .cortex-m4>img, .verilog>img, .system-verilog>img {
+        float: left;
+        padding-right: 10px;
+    }
+}
+
+.travelling>img, .cooking>img .self-learning>img {
+    height: 30px;
+}
+
+.hobbies .card {
+    width: 10%;
+}
+
+@media (max-width: 992px) {
+    .hobbies .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+.right-side-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.contacts {
+    text-decoration: none;
+}
+
+.footer {
+    background-image: url(./images/bott.png);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.uni-projects>div>h2 {
+    padding-bottom: 14px;
+}
+

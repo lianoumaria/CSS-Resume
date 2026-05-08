@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Lianou</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <div class="container px-5 mr-0">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+                <div class="col-10 col-sm-8 col-lg-6"> 
+                    <img src="./images/me.jpg" class="d-block mx-lg-auto rounded-4 border-3" alt="A picture of me, while signing my diploma" height="500px" loading="lazy"> 
+                </div> 
+                <div class="col-lg-6"> 
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 deep-purple neuton-bold">MARIA LIANOU</h1> 
+                    <p class="lead deep-purple fira-sans-regular fs-3">Electrical & Computer Engineer</p> 
+                    <p class="about-me light-purple fira-sans-regular fs-5">Electrical and Computer Engineering graduate specializing in Electronics and Computer Engineering. Interested and experienced in IoT and Embedded Systems through my diploma thesis and an industry internship. Eager to apply and expand my knowledge in Software Engineering.</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="resume general-back">
+        <div class="container px-5">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 deep-purple fira-sans-regular"> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <img src="./images/hat.svg" alt="graduation hat icon" height="25rem">
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2 fira-sans-medium">Education</h3> 
+                        <p>Electrical and Computer Engineering, Aristotle University of Thessaloniki, Greece (2020-2026) <br />Specialization: Electronics and Computer Engineering <br />Grade: 9.0</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                        <img src="./images/motherboard.svg" alt="motherboard icon"  height="25rem">
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2 fira-sans-medium">Work Experience</h3> 
+                        <p>Embedded Systems Engineer Intern, <br />KENOTOM | Embedded Engineering Excellence</p> 
+                    </div>
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <img src="./images/person-gear.svg" alt="motherboard icon"  height="25rem">
+                    </div> 
+                    <div> 
+                        <h3 class="fs-2  fira-sans-medium">Skills</h3> 
+                        <p>Programming: C/C++ Python HTML CSS JavaScript <br />Microcontrollers: Programming/debugging <br />Version Control: Git <br />Simulations: MATLAB <br />DSL develompent: Jinja2 textX <br />RTL: Verilog / SystemVerilog</p> 
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="thesis">
+        <div class="container fira-sans-regular deep-purple px-5 py-5">
+            <a href="https://github.com/lianoumaria/demol/tree/thesis_demol" style="text-decoration-line: none;" class="text-body-emphasis fw-bold"><img src="./images/demol_logo.png" class="demol"></a>
+            <p><span class="fw-bold">Diploma thesis: </span>Automation Mechanism for the Development of Sensor and Actuator Control Software at the Edge.</p>
+            <p>Designed and implemented a Domain-Specific Language (DSL) for IoT device development, using model-driven engineering and low-code techniques. <br />Supported sensing and actuating through generated scripts, remote communication, and integration with an external DSL for implementing automation scenarios.</p>
+        </div>
+    </section>
+
+    <section class="uni-projects general-back">
+        <div class="container px-5 pt-5 fira-sans-regular deep-purple">
+            <h2 class="neuton-bold">Some more undergraduate Projects</h2>
+            <div class="project-container">
+                <div class="traffic-lane pe-2">
+                    <img src="./images/traffic-lane.png" alt="Traffic lane project logo" height="80px">
+                    <p><span class="fw-bold">Team Project:</span> Arduino Smart Lane Change System</p>
+                    <p>Traffic management project integrating multiple Arduino nodes with ultrasonic sensors communicating with a central gateway. Data was processed on a control CPU and visualized using Python suggesting drivers to make wise choices when it comes to changing lanes in busy highways.</p>
+                </div>
+                <div class="cortex-m4">
+                    <img src="./images/cortex-m4.png" alt="Cortex-M4 microcontroller chip">
+                    <p>ARM Cortex-M4 Microcontroller Programming – Developed sensor drivers in C based on datasheet specifications and implemented scripts with ISRs for task execution and interrupt handling.</p>
+                </div>
+                <div class="verilog">
+                    <img src="./images/verilog.png" alt="Verilog rtl symbol">
+                    <p>RISC-V processor subsystem in Verilog - Implemented a 32-bit ALU, arithmetic calculator, 32×32-bit register file, datapath, and top-level processor module with FSM control and testbenches. </p>
+                </div>
+                <div class="system-verilog">
+                    <img src="./images/system-verilog.png" alt="SystemVerilog rtl symbol">
+                    <p style="margin-bottom: 0px;">Single-precision multiplier in SystemVerilog - Designed and verified the multiplier, implementing normalization, rounding and exception handling modules following IEEE-745 standards. Ensured functional correctness through testbenches and SystemVerilog Assertions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hobbies general-back">
+        <div class="container py-5 px-5 fira-sans-regular deep-purple">
+            <h2 class="neuton-bold pb-2">What else do i love?</h2>
+            <div class="row">
+                <div class="col-lg-4 travelling">
+                    <div class="card" style="width: 100%;">
+                      <img src="./images/cairo.jpg" class="card-img-top" alt="Picture of me and my sister in Cairo">
+                      <div class="card-body deep-purple">
+                        <h5 class="card-title">Travelling</h5>
+                        <p class="card-text">Exploring new places both in my country and abroad. Learning about foreign history, colture, architecture and, of course, <span class="fw-bold">FOOD</span></p>
+                        <a href="./TravellingDiary.html" class="btn dark-back light-purple">TravellingDiary</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 cooking">
+                    <div class="card" style="width: 100%;">
+                      <img src="./images/cinammon.png" class="card-img-top" alt="Picture of some delicious cinammon rolls">
+                      <div class="card-body deep-purple">
+                        <h5 class="card-title">Cooking & Baking</h5>
+                        <p class="card-text">I love trying new cuisines. I also enjoy cooking, baking and creating my own recipies. It’s a form of creative expression for me.</p>
+                        <a href="./MyFavRecipies.html" class="btn dark-back light-purple">MyFavRecipies</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 self-learning">
+                    <div class="card" style="width: 100%;">
+                      <img src="./images/udemy.png" class="card-img-top" alt="Udemy online courses logo">
+                      <div class="card-body deep-purple">
+                        <h5 class="card-title">Learning New Skills</h5>
+                        <p class="card-text">I recently started taking web development courses on Udemy. I really enjoy expanding my knowledge and creating my own projects.</p>
+                        <a href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=Brand-Udemy_la.EN_cc.ROWMTA-A&campaigntype=Search&portfolio=BrandDirect&language=EN&product=Course&test=&audience=Keyword&topic=&priority=&utm_content=deal4584&utm_term=_._ag_80979681354_._ad_534056438135_._kw_udemy_._de_c_._dm__._pl__._ti_kwd-296956216253_._li_9061579_._pd__._&matchtype=b&gad_source=1&gad_campaignid=6499169198&gbraid=0AAAAADROdO3EfwgC-21nQFsdwFnVbdH1H&gclid=EAIaIQobChMI9or1gryplAMV4KaDBx07mxgQEAAYASAAEgJJc_D_BwE" class="btn dark-back light-purple">GetStarted</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-me general-back">
+        <div class="container px-5 deep-purple py-5">
+            <div class="right-side-flex">
+                <h2 class="neuton-bold fs-1">Get in touch</h2>
+                <p class="fira-sans-regular fs-3">I’d be glad to hear from you, whether it’s for a job opportunity or a collaborative project!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div>
+            <a class="contacts deep-purple" href="https://www.linkedin.com/in/maria-lianou-332808391/">
+                <img src="./images/linkedin.svg" alt="Linkedin icon"> Maria Lianou
+            </a>
+        </div>
+        <div>
+            <a class="contacts deep-purple" href="https://github.com/lianoumaria">
+                <img src="./images/github.svg" alt="Github icon"> lianoumaria
+            </a>
+        </div>
+    </section>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
